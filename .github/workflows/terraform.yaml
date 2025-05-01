@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'Loggin_Bucket_Express/**/*.tf'
+      - 'Logging Bucket Express/**/*.tf'
   pull_request:
     branches: [ main ]
     paths:
-      - 'Loggin_Bucket_Express/**/*.tf'
+      - 'Logging Bucket Express/**/*.tf'
 
 env:
   TF_LOG: INFO
@@ -23,7 +23,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./Loggin_Bucket_Express
+        working-directory: './Logging Bucket Express'
 
     steps:
       - name: Checkout the repository to the runner
