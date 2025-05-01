@@ -1,5 +1,10 @@
 name: "Terraform Infrastructure Change Management Pipeline with GitHub Actions"
 
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
 on:
   push:
     branches: [ main ]
