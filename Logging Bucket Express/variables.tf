@@ -1,26 +1,24 @@
 variable "bucket_name" {
-  description = "Nome do bucket S3 para logs do CloudTrail"
   type        = string
-  default     = "teste-s3-aninha-lab-2025"
+  description = "Nome do bucket S3 para armazenar logs do CloudTrail"
+  default     = ""
 }
 
 variable "cloudtrail_id" {
-  description = "ID do CloudTrail"
-  type        = string 
-  default     = "trail-logs-aninha-lab-2025"  
+  type        = string
+  description = "Nome do CloudTrail"
+  default     = "cloudtrail-logs"
 }
 
 variable "region" {
-  description = "Região AWS"
   type        = string
-  default     = "sa-east-1"
-  
+  description = "Região da AWS onde os recursos serão criados"
+  default     = "us-east-1"
 }
 
-
 variable "tags" {
-  description = "Tags padrão para todos os recursos."
   type        = map(string)
-  default     = {"Environment" = "Test",}
+  description = "Tags a serem aplicadas aos recursos"
+  default     = {}
 }
 
