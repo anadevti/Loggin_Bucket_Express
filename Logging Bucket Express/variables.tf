@@ -13,7 +13,7 @@ variable "cloudtrail_id" {
 variable "region" {
   type        = string
   description = "Região da AWS onde os recursos serão criados"
-  default     = "us-east-1"
+  default     = "sa-east-1"
 }
 
 variable "tags" {
