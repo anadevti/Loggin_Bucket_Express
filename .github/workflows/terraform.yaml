@@ -23,7 +23,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: ./terraform
+        working-directory: ./Loggin_Bucket_Express
 
     steps:
       - name: Checkout the repository to the runner
