@@ -5,12 +5,12 @@ on:
    branches:
    - main
    paths:
-   - terraform/**
+   - Loggin Bucket Express/ terraform/**
  pull_request:
    branches:
    - main
    paths:
-   - terraform/**
+   - Loggin Bucket Express/ terraform/**
  
 env:
  # verbosity setting for Terraform logs
