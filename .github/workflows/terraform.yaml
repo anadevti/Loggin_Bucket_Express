@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - Loggin_Bucket_Express/.terraform/**
+      - 'Loggin_Bucket_Express/**/*.tf'
   pull_request:
     branches: [ main ]
     paths:
-      - Loggin_Bucket_Express/.terraform/**
+      - 'Loggin_Bucket_Express/**/*.tf'
 
 env:
   TF_LOG: INFO
