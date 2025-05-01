@@ -56,6 +56,12 @@ Imagine que você trabalha em uma empresa que precisa garantir conformidade com 
 
 Essa abordagem é especialmente útil para equipes DevOps, SRE e segurança que trabalham com infraestruturas na AWS em escala corporativa, ajudando a cumprir práticas como “security by default” e “compliance automation”.
 
+## Extras:
+
+- Foi construido um fluxo de CI/CD (actions) para que quando um PR por aberto para a main, e se tiver sido alterado algo referente ao terraform, que ele rode todo o fluxo padrão da implementação de um Terraform!
+- Também foi implementado a forma Manual de chamar o CI e CD, tanto para Plan, Apply ou Destroy!
+
+
 ---
 
 ## 🚀 Conclusão (por que eu fiz esse lab?)
