@@ -135,7 +135,7 @@ data "aws_iam_policy_document" "kms_root" {
 
 data "aws_iam_policy_document" "kms_cloudtrail" {
   statement {
-    sid = "AllowCloudTrail"
+    sid    = "AllowCloudTrail"
     effect = "Allow"
     principals {
       type        = "Service"
