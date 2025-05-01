@@ -99,7 +99,7 @@ data "aws_iam_policy_document" "bucket_policy" {
       type        = "*"
       identifiers = ["*"]
     }
-    actions   = ["s3:*"]
+    actions = ["s3:*"]
     resources = [
       aws_s3_bucket.this.arn,
       "${aws_s3_bucket.this.arn}/*"
